@@ -1,12 +1,15 @@
-import { Box, Text,Flex} from '@chakra-ui/react'
+import { FormControl,FormLabel,Input,Center,Text} from '@chakra-ui/react'
 
 function Login() {
     return (
         
-   
-      <div>
-      <h1> Login</h1>
-   </div>
+   <Center>
+    <Text>Login Form</Text>
+      <FormControl w='30%' isRequired>
+  <FormLabel>First name</FormLabel>
+  <Input placeholder='First name' />
+</FormControl>
+</Center>
     );
   }
   
