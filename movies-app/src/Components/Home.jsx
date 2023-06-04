@@ -1,5 +1,5 @@
 import { Flex, Spacer,Box, Text,Center,VStack} from '@chakra-ui/react'
-
+import {Link} from "react-router-dom"
 function Home() {
     return (
         
