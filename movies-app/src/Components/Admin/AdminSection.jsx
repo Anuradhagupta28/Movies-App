@@ -1,12 +1,11 @@
 import AdminNavbar from "./AdminNavbar"
-// import AdminRoute from '.../Routers/AdminRoute'
-
+import AdminRoute from './AdminRoute'
 function AdminSection() {
     return (
         <div>
           <AdminNavbar/>
-         {/* <AdminRoute/>  */}
-        <h1>Hii</h1>
+          <AdminRoute/>  
+       
             </div>
    
    
