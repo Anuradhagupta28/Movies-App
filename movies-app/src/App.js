@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Home from './Components/Home.jsx'
+import Allroutes from './Routers/Allroute.jsx'
 import './App.css';
 
 function App() {
@@ -7,8 +8,10 @@ function App() {
     <div className="App">
    
      <Home/>
+     <Allroutes/>
     </div>
   );
 }
+// sdfghj
 
 export default App;
