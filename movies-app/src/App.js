@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import Home from './Components/Home.jsx'
 import AdminSection from './Components/Admin/AdminSection.jsx'
 import Allroutes from './Routers/Allroute.jsx'
+import UserSection from './Components/User/UserSection.jsx'
 import './App.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
    
      {/* <Home/>
      <Allroutes/> */}
-     <AdminSection/>
+     {/* <AdminSection/> */}
+     <UserSection/>
     </div>
   );
 }
