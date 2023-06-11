@@ -14,6 +14,22 @@ import {
 import AdminNavbar from './AdminNavbar';
 
 function Dashboard() {
+
+  const express = require('express')
+const cors = require('cors')//server maintain /error find karne me help
+const fs=require('fs')//file read karne ke liye
+
+
+const app = express()
+ app.use(cors())//exprees me cors use kar rahe h
+ app.use(express.json());//express ko json me convert
+
+ const port=8080
+
+app.listen(port,()=>{ 
+    console.log(`server listening on http://localhost:${port}`)
+})
+
     return (
       <div>
         <AdminNavbar/>

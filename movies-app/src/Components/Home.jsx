@@ -33,8 +33,8 @@ function Home() {
        </Box>
        <Box>
         <Flex 	gap='20px' >
-        <Button   onClick={handleAdmin}  bgColor='red.300'>Admin</Button>
-        <Button   onClick={handleUser} bgColor='red.300'>User</Button>
+        <Button  borderRadius='30px' onClick={handleAdmin}  bgColor='red.300'>Admin</Button>
+        <Button   borderRadius='30px' onClick={handleUser} bgColor='red.300'>User</Button>
         </Flex>
         
        </Box>

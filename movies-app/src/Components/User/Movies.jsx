@@ -20,6 +20,7 @@ function Movies (){
               <Button w='150px' bgColor='green.400'h='30px'>Book now</Button>
             </Box>
             </Flex>
+         
         </div>
         </div>
     )
