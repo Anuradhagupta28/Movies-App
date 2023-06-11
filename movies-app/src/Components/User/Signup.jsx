@@ -1,9 +1,11 @@
 import { FormControl,FormLabel,Button,Input,Center,Text,VStack} from '@chakra-ui/react'
+import UserNavbar from './UserNavbar';
 
 function Signup() {
     return (
 
-      
+      <div>
+        <UserNavbar/>
 <div>
 <Text mt='40px'fontWeight="bold"  fontSize='4xl'> Signup</Text>
 <Center mt='60px' >
@@ -20,7 +22,7 @@ function Signup() {
 </FormControl>
 </Center>
 </div>
-
+</div>
     );
   }
   

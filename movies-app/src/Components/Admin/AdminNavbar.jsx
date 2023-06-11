@@ -6,7 +6,7 @@ function AdminNavbar() {
    
    <Box bg='#e26068' w='100%' p={4} color='white' h='40px'>
     <Flex>
-      <Link to='/login' ><Text> Login</Text></Link>
+      <Link to='/admin/login' ><Text> Login</Text></Link>
       <Spacer />
       <Link to='/dashboard'><Text>Dashboard</Text></Link>
       <Spacer />

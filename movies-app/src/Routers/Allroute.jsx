@@ -12,12 +12,12 @@ function Allroute() {
     return (
       <div >
         <Routes>
-            <Route path='/admin' element={<AdminSection/>}>Admin</Route>
-            <Route path='/user' element={<UserSection/>}>User</Route>
+            {/* <Route path='/admin' element={<AdminSection/>}>Admin</Route>
+            <Route path='/user' element={<UserSection/>}>User</Route> */}
             <Route path='/signin' element={<Signin/>}>Signin</Route>
-            <Route path='/signup' element={<Signup/>}>Signup</Route>
+            <Route path='/user/signup' element={<Signup/>}>Signup</Route>
             <Route path='/movies' element={<Movies/>}>Movies</Route>
-            <Route path='/login' element={<Login/>}>Login</Route>
+            <Route path='/admin/login' element={<Login/>}>Login</Route>
             <Route path='/dashboard' element={<Dashboard/>}>Dashboard</Route>
             <Route path='/reports' element={<Reports/>}>Reports</Route>
         </Routes>

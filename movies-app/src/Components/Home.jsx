@@ -7,10 +7,10 @@ function Home() {
     const navigate = useNavigate();
 
     const handleAdmin = () => {
-      navigate("/admin"); // Navigates to the "/dashboard" route
+      navigate("/admin/login"); // Navigates to the "/dashboard" route
     };
     const handleUser = () => {
-        navigate("/user"); // Navigates to the "/dashboard" route
+        navigate("/user/signup"); // Navigates to the "/dashboard" route
       };
 
     return (
@@ -29,7 +29,7 @@ function Home() {
       <Flex w='100%'  bg='#e26068' 	gap='1050px'>
        <Box>
         <Image w='100px' h='40px' alt='movies' src='https://static.vecteezy.com/system/resources/previews/005/567/681/original/video-recorder-icon-in-flat-style-with-shadow-on-red-background-video-camera-free-vector.jpg'></Image>
-        {/* <Image w='100px' h='50px' alt='movies' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMHaPGqwc3PFkUfsPO1kbp7MFtZ42YQqidO0qtGBzUtWO1eiq54Neb82jV1ZL3BfazC8w&usqp=CAU'></Image> */}
+        {/* <Image w='100px' h='50px' alt='movies' src='https://i.pinimg.com/originals/bf/f6/24/bff624daf429c4df3813352de04b6383.jpg'></Image> */}
        </Box>
        <Box>
         <Flex 	gap='20px' >
