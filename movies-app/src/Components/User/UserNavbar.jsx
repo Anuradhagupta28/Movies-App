@@ -4,13 +4,13 @@ function UserNavbar() {
     return (
         
    
-   <Box bg='red.300' w='100%' p={4} color='white'>
+   <Box bg='#e26068' w='100%' p={4} color='white' h='40px'>
     <Flex>
-      <Link to='/login' ><Text> Signup</Text></Link>
+      <Link to='/signup' ><Text> Signup</Text></Link>
       <Spacer />
-      <Link to='/dashboard'><Text>Sigin/Login</Text></Link>
+      <Link to='/signin'><Text>Signin</Text></Link>
       <Spacer />
-      <Link to='/reports'><Text>Movies</Text></Link>
+      <Link to='/movies'><Text>Movies</Text></Link>
     </Flex>
  </Box>
     );

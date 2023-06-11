@@ -11,10 +11,12 @@ import {
    Button,
    Text,Center
  } from '@chakra-ui/react'
+import AdminNavbar from './AdminNavbar';
 
 function Reports() {
     return (
-        
+      <div>
+        <AdminNavbar/>
    
  <div>
 
@@ -58,6 +60,7 @@ function Reports() {
   </Table>
 </TableContainer>
 </Center>
+ </div>
  </div>
     );
 

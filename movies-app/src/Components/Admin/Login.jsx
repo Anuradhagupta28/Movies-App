@@ -1,10 +1,14 @@
 import { FormControl,FormLabel,Button,Input,Center,Text,VStack} from '@chakra-ui/react'
+import AdminNavbar from './AdminNavbar';
 
 function Login() {
     return (
 
-      
+
+     <div>
+        <AdminNavbar/>
 <div>
+
 <Text mt='40px'fontWeight="bold"  fontSize='4xl'> Login</Text>
 <Center mt='60px' >
    
@@ -17,6 +21,7 @@ function Login() {
 
 </FormControl>
 </Center>
+</div>
 </div>
 
     );

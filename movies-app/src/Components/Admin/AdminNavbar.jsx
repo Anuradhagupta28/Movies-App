@@ -4,7 +4,7 @@ function AdminNavbar() {
     return (
         
    
-   <Box bg='red.300' w='100%' p={4} color='white'>
+   <Box bg='#e26068' w='100%' p={4} color='white' h='40px'>
     <Flex>
       <Link to='/login' ><Text> Login</Text></Link>
       <Spacer />

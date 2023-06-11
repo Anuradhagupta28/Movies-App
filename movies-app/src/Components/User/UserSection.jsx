@@ -1,10 +1,11 @@
+// import Allroute from "../../Routers/Allroute";
 import UserNavbar from "./UserNavbar"
-import UserRoute from './UserRoute'
+
 function UserSection() {
     return (
         <div>
           <UserNavbar/>
-          <UserRoute/>  
+          {/* <Allroute/>   */}
        
             </div>
    

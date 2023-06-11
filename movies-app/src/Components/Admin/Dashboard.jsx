@@ -11,10 +11,12 @@ import {
    TableCaption,
    TableContainer,
  } from '@chakra-ui/react'
+import AdminNavbar from './AdminNavbar';
 
 function Dashboard() {
     return (
-        
+      <div>
+        <AdminNavbar/>
    
  <div>
     <Text mt='20px'fontWeight="bold"  fontSize='3xl'> Dashboard</Text>
@@ -108,6 +110,7 @@ function Dashboard() {
 </TableContainer>
 </Center>
 
+ </div>
  </div>
     );
   }

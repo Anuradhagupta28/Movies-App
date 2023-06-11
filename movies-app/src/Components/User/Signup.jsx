@@ -5,7 +5,7 @@ function Signup() {
 
       
 <div>
-<Text mt='40px'fontWeight="bold"  fontSize='4xl'> Login</Text>
+<Text mt='40px'fontWeight="bold"  fontSize='4xl'> Signup</Text>
 <Center mt='60px' >
    
    <FormControl w='35%' h='240px' border='1px' borderColor='gray.400' borderRadius='10px' p='5' isRequired>
