@@ -8,11 +8,11 @@ function AdminSection() {
     return (
         <div>
           <AdminNavbar/>
-          <Routes>
+          {/* <Routes>
           <Route path='/login' element={<Login/>}>Login</Route>
             <Route path='/dashboard' element={<Dashboard/>}>Dashboard</Route>
             <Route path='/reports' element={<Reports/>}>Reports</Route> 
-            </Routes>
+            </Routes> */}
        
             </div>
    
