@@ -27,7 +27,7 @@ function Signup() {
         <UserNavbar/>
 <div>
 <Text mt='40px'fontWeight="bold"  fontSize='3xl'>Welcome to movies app</Text>
-<Text  fontSize='xs'>Signup for an account</Text>
+<Text color='grey' fontSize='sm'>Signup for an account</Text>
 <Center mt='60px' >
    
    <FormControl w='35%' h='300px' border='1px' borderColor='gray.400' borderRadius='10px' p='5' isRequired>
